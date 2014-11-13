@@ -2,11 +2,37 @@
 <html lang="sv">
     <head>
         <meta charset= "utf-8" />
-        
+        <title>Min första sida</title>
     </head>
     <body>
         <h1>Malin Eidenbrandt</h1>
         <h2>En blogg i Klientbaserad Webbutveckling</h2>
+    
+    <form action=" http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST">
+   
+       <fieldset>
+           <legend>Fråga</legend>
+            <lable for="ärende">Ärende:</lable>
+               <select id="ärende" name="ärende">
+                   <option value="Studier" selected>Studier</option>
+                   <option value="Privat">Privat</option>
+               </select>
+               <lable for="textruta1">Rubrik:</lable>
+               <input type="text" id="textruta1">
+               <lable for="textruta2">Fråga:</lable>
+               <textarea id="textruta2" rows="5" cols="30">Skriv din fråga här.</textarea>
+       </fieldset>
+       <fieldset>
+           <legend>Information om dig</legend>
+           <lable for="kontakt via email">Kontakta mig via e-mail</lable>
+           <input type="checkbox" id="kontakt via email" name="g1[]" value="kontakta mig via e-mail" />
+           <lable for="kontakt via telefon">Kontakta mig via telefon</lable>
+           <input type="checkbox" id="kontakt via telefon" name="g1[]" value="kontakt via telefon" />
+           <lable for="textruta3">Telefonnummer:</lable>
+           <input type="text" id="textruta3">
+    </fieldset>
+    </form>
+
         <p>Malin&nbsp;Eidenbrandt<br>Kungsvägen 59B<br>195 70, Rosersberg</p>
         <a href="mailto:malin.eidenbrandt@gmail.com">malin.eidenbrandt@gmail.com</a>
     </body>
