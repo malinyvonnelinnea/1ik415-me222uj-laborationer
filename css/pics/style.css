@@ -1,0 +1,38 @@
+/* Layout */
+
+#navigation {
+	width: 200px;
+	float: left;
+}
+
+#content {
+	background: #ffffff;
+    color: #222;
+    width: 50%;
+    float: left;
+}
+
+#container {
+	background: #ffffff;
+    color: #222;
+    overflow: auto;
+    max-width: 960px;
+}
+
+#top {
+	font: 12px/20px Georgia, "Times New Roman", Times, serif;
+        padding-top: 25px;
+        float: center;
+        max-width: 960px;
+        margin: 0 auto
+}
+
+#footer {
+	background: #ffffff;
+    color: #222;
+    max-width: 960px;
+    overflow: auto;
+    position: absolute;
+    bottom: 15%;
+   
+}

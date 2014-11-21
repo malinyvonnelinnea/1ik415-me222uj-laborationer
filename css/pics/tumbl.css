@@ -1,0 +1,26 @@
+	    background: #ffffff;
+        color: #222;
+        font: 12px/20px Georgia, "Times New Roman", Times, serif;
+        padding-top: 25px;
+        text-align: center;
+        width: 960px;
+        margin: 0 auto;
+     }
+
+     h1, h2, h3 {
+        font-family: Cufon;
+     }
+
+     h1 {
+        font-size: 50px;
+        line-height: 50px;
+     }
+
+     h2 {
+        font-size: 31px;
+        line-height: 37px;
+     }
+
+     h3 {
+        font-size: 21px;
+        line-height: 27px;
